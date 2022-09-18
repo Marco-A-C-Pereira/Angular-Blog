@@ -1,0 +1,31 @@
+* {
+  font-family: Tahoma, sans-serif;
+  margin-bottom: 1vh;
+}
+
+img {
+  max-height: 5%;
+}
+
+.data{
+  color: #3f3f3f;
+  font-size: 0.8vw;
+  font-weight: bold;
+}
+
+.titulo {
+  color: #d3d3d3;
+  font-size: 3vw;
+}
+
+.materia {
+  color: #767676;
+  font-size: 1.40vw;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+

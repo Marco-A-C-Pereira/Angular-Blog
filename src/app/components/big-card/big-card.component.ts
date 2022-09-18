@@ -10,6 +10,8 @@ export class BigCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
+
 
 }

@@ -1,0 +1,27 @@
+img {
+
+}
+
+.card-general{
+  display: flex;
+}
+
+.flex-collum{
+  flex-direction: column;
+  margin-left: 2%;
+}
+
+.titulo {
+  color: #d3d3d3;
+  font-size: 2vw;
+
+  margin-top: 2%;
+}
+
+.data {
+  color: #3f3f3f;
+  font-size: 0.8vw;
+  font-weight: bold;
+
+  margin-top: 1%;
+}
