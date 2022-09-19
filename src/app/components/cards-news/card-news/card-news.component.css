@@ -1,0 +1,27 @@
+
+.container-wrap {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 48vh;
+}
+
+.container-collum{
+  flex-direction: column;
+}
+
+.container-wrap__child {
+  width: 45%;
+  /* border: 1px solid red; remover depois  */
+}
+
+.big-card {
+  height: 100%;
+}
+
+.small-card {
+  height: 33%;
+
+  border-bottom: #d3d3d3 solid 1px;
+}

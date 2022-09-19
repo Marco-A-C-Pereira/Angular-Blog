@@ -5,25 +5,3 @@
   align-items: center;
   margin: 0 2%;
 }
-
-.container-wrap {
-  display: flex;
-  justify-content: space-between;
-
-  width: 100%;
-}
-
-.container-wrap__child {
-  width: 45%;
-  /* border: 1px solid red; remover depois  */
-}
-
-.big-card {
-  height: 48vh;
-}
-
-.small-card {
-  height: 16vh;
-
-  border-bottom: #d3d3d3 solid 1px;
-}

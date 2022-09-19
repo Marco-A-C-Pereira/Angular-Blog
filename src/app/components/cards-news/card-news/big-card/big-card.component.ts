@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Noticia } from '../model/noticia';
 
 @Component({
   selector: 'app-big-card',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./big-card.component.css']
 })
 export class BigCardComponent implements OnInit {
+
+  @Input() bigNews!: Noticia;
 
   constructor() { }
 

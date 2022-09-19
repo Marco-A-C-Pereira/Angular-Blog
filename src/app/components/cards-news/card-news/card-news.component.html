@@ -1,0 +1,8 @@
+<div class="container-wrap">
+  <app-big-card class="container-wrap__child big-card" [bigNews]="news[0]"></app-big-card>
+  <section class="container-wrap__child container-collum">
+    <div *ngFor="let noticia of news | slice: 1">
+      <app-small-card class="small-card " [smallNews]="noticia" ></app-small-card>
+    </div>
+  </section>
+</div>
