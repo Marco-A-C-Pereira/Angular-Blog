@@ -7,13 +7,14 @@
   height: 48vh;
 }
 
-.container-collum{
+.container-cards__collum{
+  display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .container-wrap__child {
   width: 45%;
-  /* border: 1px solid red; remover depois  */
 }
 
 .big-card {

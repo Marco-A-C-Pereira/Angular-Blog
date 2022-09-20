@@ -1,0 +1,29 @@
+a {
+  text-decoration: none;
+}
+.container-wrapper{
+  display: flex;
+  flex-direction: row;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 1.7vh;
+
+  margin: 1vh 0;
+}
+
+.container-child__text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 30%;
+}
+
+.container-child__icon{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+
+  font-size: 3Vh;
+}

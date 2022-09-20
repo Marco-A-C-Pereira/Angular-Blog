@@ -6,6 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { BigTitleComponent } from './components/big-title/big-title.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { BigTitleComponent } from './components/big-title/big-title.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CardsNewsModule
+    CardsNewsModule,
+    BrowserAnimationsModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

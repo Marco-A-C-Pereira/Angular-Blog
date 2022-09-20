@@ -5,3 +5,7 @@
   align-items: center;
   margin: 0 2%;
 }
+
+.container__width{
+  width: 100%;
+}

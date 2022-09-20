@@ -1,8 +1,3 @@
-.container__big-text {
-  display: flex;
-  justify-content: center;
-}
-
 .container__big-text > h1 {
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -15,4 +10,8 @@
 
   padding-bottom: 2vh;
   margin: 2% 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
 }
